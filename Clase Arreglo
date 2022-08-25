@@ -1,0 +1,39 @@
+package estrucdat;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+// Chavez Navarro Salma 
+// Grupo 1310
+// Clase Arreglo
+public class Arreglo1 {
+	 int index =0;
+	 int valor = 0;
+	 int tamañoArray= 0;
+	
+	public Arreglo1(int index, int valor, int tamañoArray){
+		index= 0;
+		valor=0;
+		tamañoArray = 0;
+		this.valor=valor;
+		this.tamañoArray= tamañoArray;
+		
+	}
+	public static void main(int tamañoArray) {
+		int[]main= new int[tamañoArray];
+		System.out.println(main.length);
+	}
+	
+	public static void main2(String[] args) {
+		
+		int arreglo[]= new int[10];
+			System.out.println("El numero en la posición 3 del arreglo es: "+Array.get(arreglo, 3));
+			Array.getLength(arreglo);
+			System.out.println("La longitud del arreglo es de: "+Array.getLength(arreglo));
+			Array.getInt(arreglo, 1);
+			System.out.println(arreglo[3]);
+	
+	
+}
+	
+}
